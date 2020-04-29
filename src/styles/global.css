@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'AvenirNext';
+	src: url('/fonts/AvenirNextLTPro-Regular.woff');
+}
+
+@font-face {
+	font-family: 'AvenirNextBold';
+	src: url('/fonts/AvenirNextLTPro-Bold.woff');
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/fonts/Gilroy-Light.woff');
+}
+
+@font-face {
+	font-family: 'GilroyExtraBold';
+	src: url('/fonts/Gilroy-ExtraBold.woff');
+}
+
+:root {
+	--layout-bg-color: coral;
+}
