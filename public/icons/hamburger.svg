@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="37.069" viewBox="0 0 49 37.069">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ededed;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="Hamburger" transform="translate(-1771 -100)">
+    <line id="Line_34" data-name="Line 34" class="cls-1" x2="41" transform="translate(1775 133.069)"/>
+    <line id="Line_35" data-name="Line 35" class="cls-1" x2="41" transform="translate(1775 118.535)"/>
+    <line id="Line_36" data-name="Line 36" class="cls-1" x2="41" transform="translate(1775 104)"/>
+  </g>
+</svg>

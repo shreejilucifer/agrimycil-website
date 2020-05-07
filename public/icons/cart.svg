@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.852" height="50.388" viewBox="0 0 57.852 50.388">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ededed;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #ededed;
+      }
+    </style>
+  </defs>
+  <g id="Cart" transform="translate(-1660.574 -93.341)">
+    <path id="Path_58" data-name="Path 58" class="cls-1" d="M1662.574,95.341h8.164c2.722,11.722,5.443,22.066,8.164,33.789h31.873"/>
+    <path id="Path_59" data-name="Path 59" class="cls-1" d="M1677.8,119.2h33.616c2.37-7.687,3.286-10.437,5.007-17.266H1689.32"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" class="cls-2" cx="4.192" cy="4.192" r="4.192" transform="translate(1682.639 135.344)"/>
+    <circle id="Ellipse_26" data-name="Ellipse 26" class="cls-2" cx="4.192" cy="4.192" r="4.192" transform="translate(1698.81 135.344)"/>
+  </g>
+</svg>

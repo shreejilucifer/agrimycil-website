@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.305" height="40.77" viewBox="0 0 40.305 40.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #264333;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="Cross" transform="translate(-1781.352 -3258.343)">
+    <line id="Cross2" class="cls-1" y1="28.991" x2="28.991" transform="translate(1787.009 3264)"/>
+    <line id="Cross1" class="cls-1" x2="28.991" y2="28.991" transform="translate(1787.009 3264.465)"/>
+  </g>
+</svg>
