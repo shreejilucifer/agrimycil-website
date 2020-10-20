@@ -2,20 +2,15 @@ import styles from './navbar.module.css';
 import Brand from './Brand';
 import Cart from './Cart';
 import Hamburger from './Hamburger';
-import Link from 'next/link';
+import Back from './Back';
 
-const Back = () => {
-	return (
-		<Link href="/">
-			<a className={styles.backContainer}>
-				<img src="/icons/arrow.svg" className={styles.arrow} />
-				<div className={styles.back}>back</div>
-			</a>
-		</Link>
-	);
-};
+import * as React from 'react';
 
-const Navbar = ({ back }) => {
+interface INavbarProps {
+	back: boolean;
+}
+
+const Navbar: React.FunctionComponent<INavbarProps> = ({ back }) => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.brand}>{back ? <Back /> : <Brand />}</div>

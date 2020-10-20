@@ -1,9 +1,12 @@
-import styles from './navbar.module.css';
+import * as React from 'react';
 import { useState } from 'react';
-import Link from 'next/link';
+import Menu from './Menu';
+import styles from './navbar.module.css';
 
-const Hamburger = () => {
-	const [toggle, setToggle] = useState(false);
+interface IHamburgerProps {}
+
+const Hamburger: React.FunctionComponent<IHamburgerProps> = () => {
+	const [toggle, setToggle] = useState<boolean>(false);
 	return (
 		<React.Fragment>
 			<div
@@ -16,32 +19,5 @@ const Hamburger = () => {
 		</React.Fragment>
 	);
 };
-
-const Menu = ({ onClose }) => {
-	return (
-		<div className={styles.menu}>
-			<div className={styles.menuNavbar}>
-				<img
-					src="/icons/cross.svg"
-					className={styles.cross}
-					onClick={() => onClose()}
-				/>
-			</div>
-			<div className={styles.menuContent}>
-				<MenuItem to="/" title="Home" />
-				<MenuItem to="/store" title="Store" />
-				<MenuItem to="/about" title="About Us" />
-				<MenuItem to="/contact" title="Contact Us" />
-				<MenuItem to="/blog" title="Blog" />
-			</div>
-		</div>
-	);
-};
-
-const MenuItem = ({ to, title }) => (
-	<Link href={to}>
-		<a className={styles.link}>{title}</a>
-	</Link>
-);
 
 export default Hamburger;

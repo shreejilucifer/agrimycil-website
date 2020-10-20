@@ -1,6 +1,9 @@
+import * as React from 'react';
 import styles from './navbar.module.css';
 
-const Brand = () => {
+interface IBrandProps {}
+
+const Brand: React.FunctionComponent<IBrandProps> = () => {
 	return (
 		<div className={styles.brandContainer}>
 			<div className={styles.logo}>

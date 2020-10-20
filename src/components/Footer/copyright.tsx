@@ -1,6 +1,9 @@
+import * as React from 'react';
 import styles from './footer.module.css';
 
-const Copyright = () => {
+interface ICopyrightProps {}
+
+const Copyright: React.FunctionComponent<ICopyrightProps> = () => {
 	return (
 		<div className={styles.copyright}>
 			Copyright © {new Date().getFullYear()} Agrimycil Bioscience Pvt. Ltd.
