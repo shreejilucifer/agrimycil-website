@@ -1,7 +1,9 @@
-import styles from '../src/styles/indexpage.module.css';
+import * as React from 'react';
 import Layout from '../src/components/Layout';
 
-const IndexPage = () => {
+interface IIndexPageProps {}
+
+const IndexPage: React.FunctionComponent<IIndexPageProps> = () => {
 	return (
 		<Layout overlay>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, earum

@@ -1,9 +1,12 @@
+import * as React from 'react';
 import styles from './footer.module.css';
 import Facebook from './icons/Facebook';
-import Whatsapp from './icons/Whatsapp';
 import Instagram from './icons/Instagram';
+import Whatsapp from './icons/Whatsapp';
 
-const Social = () => {
+interface ISocialProps {}
+
+const Social: React.FunctionComponent<ISocialProps> = () => {
 	return (
 		<div className={styles.socialContainer}>
 			<a
